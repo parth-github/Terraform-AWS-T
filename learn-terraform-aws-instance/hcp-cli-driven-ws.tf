@@ -19,11 +19,13 @@ terraform {
 
 provider "aws" {
   region = "us-west-2"
+  #HCP TF Workspace Global environment variables of aws key and id added
+  ## OR
   #access_key = "my-access-key"
   #secret_key = "my-secret-key"
   #or
-  shared_config_files      = ["C:/Users/linux/.aws/config"]
-  shared_credentials_files = ["C:/Users/linux/.aws/credentials"]
+  #shared_config_files      = ["C:/Users/linux/.aws/config"]
+  #shared_credentials_files = ["C:/Users/linux/.aws/credentials"]
   #profile                  = "smriti_pgm"
 }
 
