@@ -33,7 +33,31 @@ C:\Users\linux>docker version
   Version:          0.19.0
   GitCommit:        de40ad0
   ```
+
+```bash
+E:\5_Terraform_docker_local>docker run hello-world
+Unable to find image 'hello-world:latest' locally
+latest: Pulling from library/hello-world
+Digest: sha256:3d2c8f0b1d3e2c4f5a6b7c8d9e0f1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8
+Status: Downloaded newer image for hello-world:latest
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+To generate this message, Docker took the following steps:
+  1. The Docker client contacted the Docker daemon.
+  2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+     (amd64)
+  3. The Docker daemon created a new container from that image which runs the
+     executable that produces the output you are currently reading.
+  4. The Docker daemon streamed that output to the Docker client, which sent it
+     to your terminal.
+To try something more ambitious, you can run an Ubuntu container with:
+  $ docker run -it ubuntu bash
+For more examples and ideas, visit:
+https://docs.docker.com/get-started/
+```
+
 ## Docker commands
+
 ```bash
 C:\Users\linux>docker ps
 CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
