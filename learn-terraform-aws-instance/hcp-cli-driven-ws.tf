@@ -22,9 +22,9 @@ provider "aws" {
   #access_key = "my-access-key"
   #secret_key = "my-secret-key"
   #or
-  #shared_config_files      = ["C:/Users/linux/.aws/config"]
+  shared_config_files      = ["C:/Users/linux/.aws/config"]
   shared_credentials_files = ["C:/Users/linux/.aws/credentials"]
-  profile                  = "smriti_pgm"
+  #profile                  = "smriti_pgm"
 }
 
 resource "aws_instance" "app_server" {
