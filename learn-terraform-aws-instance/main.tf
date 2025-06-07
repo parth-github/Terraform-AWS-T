@@ -1,4 +1,15 @@
 terraform {
+  /*
+  cloud {
+   organization = "smriti-aws"
+
+   workspaces {
+     name = "Terraform-AWS-T"
+   }
+  }
+*/
+
+
   required_providers {
     aws = {
       source  = "hashicorp/aws"
