@@ -1,8 +1,9 @@
 ### Terraform
 [Reference](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
 
+** Deploy a nginx container in local docker using terraform**
 
-E:\4_AWS_GITACTION\Lambda_ECS>terraform
+> E:\4_AWS_GITACTION\Lambda_ECS>terraform
 Usage: terraform [global options] <subcommand> [args]
 
 
@@ -54,11 +55,13 @@ for this configuration.
 
 ### Terraform Docker
 
-E:\4_AWS_GITACTION\Lambda_ECS>mkdir learn-terraform-docker-container
+> E:\4_AWS_GITACTION\Lambda_ECS>mkdir learn-terraform-docker-container
 
-E:\4_AWS_GITACTION\Lambda_ECS>cd learn-terraform-docker-container
+> E:\4_AWS_GITACTION\Lambda_ECS>cd learn-terraform-docker-container
 
-E:\4_AWS_GITACTION\Lambda_ECS\learn-terraform-docker-container>terraform init
+> E:\4_AWS_GITACTION\Lambda_ECS\learn-terraform-docker-container>terraform init
+
+```
 Initializing the backend...
 Initializing provider plugins...
 
@@ -82,8 +85,9 @@ should now work.
 If you ever set or change modules or backend configuration for Terraform,
 rerun this command to reinitialize your working directory. If you forget, other
 commands will detect it and remind you to do so if necessary.
+```
 
-E:\4_AWS_GITACTION\Lambda_ECS\learn-terraform-docker-container>terraform plan
+> E:\4_AWS_GITACTION\Lambda_ECS\learn-terraform-docker-container>terraform plan
 
 **Planning failed**. Terraform encountered an error while generating this plan.
 
